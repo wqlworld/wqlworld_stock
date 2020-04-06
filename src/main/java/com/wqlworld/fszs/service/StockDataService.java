@@ -32,6 +32,13 @@ public class StockDataService implements InitializingBean {
 	private StockDataRepo huShenZhishuRepo;
 	
 	
+	/**
+	 * 做T分析
+	 * @param startDate
+	 * @param endDate
+	 * @param out
+	 * @throws IOException
+	 */
 	public void caculateMethod1(Date startDate, Date endDate,OutputStream out) throws IOException{
 		 double RATE = 0.04f;
 		double maxPrincipal = 0.00f,maxProfit = 0.00f,minProfit = 0.00f;
