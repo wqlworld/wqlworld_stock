@@ -4,7 +4,7 @@
 	<groupId>com.wqlworld.stock</groupId>
 	<artifactId>wqlworld-stock</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>wqlworld-fushenzhishu</name>
+	<name>wqlworld-stock</name>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
